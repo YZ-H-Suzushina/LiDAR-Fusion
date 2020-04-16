@@ -1,3 +1,4 @@
 .vscode/
 
+#LiDAR driver
 ros_rslidar

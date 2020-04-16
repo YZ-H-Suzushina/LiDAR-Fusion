@@ -21,6 +21,7 @@ void Calibration::refPointCloudCb(sensor_msgs::PointCloud2ConstPtr rawPoints)
     pcl::PointCloud<pcl::PointXYZI>::Ptr refLidarCloud(new pcl::PointCloud<pcl::PointXYZI>);
     pcl::fromROSMsg(*rawPoints, *refLidarCloud);
 
+    
 
 }
 
